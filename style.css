@@ -1,0 +1,101 @@
+        .navbar {
+            background-image: linear-gradient(#a0d2eb, #d0bdf4) !important;
+            --bs-navbar-color: #FFFFFF;
+            --bs-navbar-disabled-color: #FFFFFF;
+            --bs-navbar-active-color: #FFFFFF;
+        }
+        
+        .dropdown-menu {
+            --bs-dropdown-link-color: white;
+            --bs-dropdown-link-hover-color: var(--bs-body-color);
+            --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+            background-image: linear-gradient(#a0d2eb, #d0bdf4) !important;
+        }
+        
+        .navbar-brand {
+            color: white;
+        }
+        
+        body {
+            font-family: Common serif fonts;
+        }
+        
+        .row {
+            margin-top: 100px;
+        }
+        
+        .lista {
+            display: flex;
+            justify-content: center;
+            height: 40vh;
+        }
+        
+        .boldclub {
+            font-size: 3rem;
+        }
+        
+        .listclubs {
+            list-style-type: none;
+        }
+        
+        .listclubs>li {
+            font-size: 2rem;
+            margin: 200px;
+        }
+        
+        .citylink {
+            text-decoration: none;
+            color: black;
+            transition: 0.5s;
+            margin: 10px;
+        }
+        
+        .citylink:hover {
+            color: #d0bdf4;
+        }
+        
+        .w-100 {
+            max-height: 600px;
+        }
+        
+        @media (max-width: 600px) {
+            .w-100 {
+                max-height: 300px;
+            }
+        }
+        /* .bi-twitter:hover{
+
+        }
+         */
+        
+        .bi-twitter {
+            transition: 0.5s;
+        }
+        
+        .bi-twitter:hover {
+            fill: #00acee;
+        }
+        
+        .bi-facebook {
+            transition: 0.5s;
+        }
+        
+        .bi-facebook:hover {
+            fill: #3b5998
+        }
+        
+        .bi-youtube:hover {
+            fill: #FF0000;
+        }
+        
+        .bi-youtube {
+            transition: 0.5s;
+        }
+        
+        .text-body-secondary {
+            transition: 0.5s;
+        }
+        
+        .text-body-secondary:hover {
+            transform: scale(1.1);
+        }
